@@ -458,6 +458,7 @@ if __name__ == '__main__':
     follower_data, follower_time = perf_counter(follower_getter, USER_NAME)
 
     # several repositories that I've contributed to have since been deleted.
+    print(f"OWNER_ID: {OWNER_ID}")
     if OWNER_ID == {'id': 'TBD'}: # only calculate for user Andrew6rant
         archived_data = add_archive()
         for index in range(len(total_loc)-1):
