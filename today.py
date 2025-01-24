@@ -459,7 +459,7 @@ if __name__ == '__main__':
 
     # several repositories that I've contributed to have since been deleted.
     print(f"OWNER_ID: {OWNER_ID}")
-    if OWNER_ID == {'id': 'TBD'}: # only calculate for user Andrew6rant
+    if OWNER_ID == {'id': 'MDQ6VXNlcjg1NTQ2'}: # only calculate for user Andrew6rant
         archived_data = add_archive()
         for index in range(len(total_loc)-1):
             total_loc[index] += archived_data[index]
